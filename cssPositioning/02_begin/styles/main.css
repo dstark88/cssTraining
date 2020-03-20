@@ -1,6 +1,7 @@
 body {
     background-color: #1f1f1f;
     color: #bfbfbf;
+    height: 2000px;
 }
 
 h1 {
@@ -19,6 +20,9 @@ em {
 
 .blueBox {
     background: #627da0;
+    position: fixed;     /* stay in the browser window */
+    top: 150px;
+    left: 150px;
 }
 
 .greenBox {

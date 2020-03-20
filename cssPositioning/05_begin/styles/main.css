@@ -20,14 +20,25 @@ em {
 
 .blueBox {
     background: #627da0; 
+    /* position: static; nothing changes, default position of an element */
+    /* top: 100px; these values only work if they have a position */
+    /* position: inherit; will only do something if it is inheriting the position from the parent element */
+    /* left: 200px; */
+    position: relative;
+    z-index: 2;
 }
 
 .greenBox {
     background: #5b8054;  
+    position: relative;
+    top: -150px;
+    z-index: 3;
 }
 
 .container {
-    /*background: rgba(0,0,0,5);
+    background: rgba(158, 123, 123);
     width: 200px;
-    height: 200px;*/
+    height: 200px;
+    position: relative;
+    z-index: -1;
 }

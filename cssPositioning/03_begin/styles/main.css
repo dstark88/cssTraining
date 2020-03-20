@@ -20,6 +20,13 @@ em {
 
 .blueBox {
     background: #627da0;
+    position: absolute; /*does not stay in the browser window, other elements ignore it's width and height */
+    /* top: 150px; */
+    /* left: 150px; */
+    /* top: 0; */
+    top: 50px;
+    left: 50px;
+
 }
 
 .greenBox {
@@ -27,5 +34,10 @@ em {
 }
 
 .container {
-    /*background: rgba(0,0,0,.4);*/ 
+    background: rgba(177, 120, 120, 0.4);
+    height: 200px;
+    width: 200px;
+    margin-top: 150px;
+    position: absolute;
+    right: 50px;
 }

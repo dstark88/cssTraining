@@ -18,9 +18,27 @@ em {
     height: 100px;
 }
 
-.blueBox {
+/* .blueBox {
+    background: #627da0;
+    width: 100px;
+    height: 100px;
+    margin: 100px auto; /* centers item, needs to have a set width to know what the center is*/
+/* } */ 
 
+/* .blueBox {
+    position: absolute;
+    top: 50%;
+    margin-top: -50px; /* this puts the center in the center of the item not the top of the element */
+/* } */
+
+.blueBox { /* center the element inside the container left and right */
+    margin: 0 auto;
 }
-.container {
 
+.container { /* center the container top and bottom */
+    position: absolute;
+    top: 50%;
+    margin-top: -50px; /* this puts the center in the center of the item not the top of the element */
+    left: 0;
+    width: 100%;
 }

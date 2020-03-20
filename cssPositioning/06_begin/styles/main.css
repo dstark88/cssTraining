@@ -19,6 +19,7 @@ em {
 }
 
 .boxBlue {
-    background: #627da0;  
+    background: #627da0; 
+    float: left; /* allows other elements to move around it */
 }
 

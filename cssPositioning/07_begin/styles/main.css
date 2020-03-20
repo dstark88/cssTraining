@@ -21,9 +21,19 @@ em {
 
 .blueBox {
     background: #627da0;
+    /* float: left; */
+    float: right;
 }
 
 .greenBox {
-    background: #5b8054;  
+    background: #5b8054; 
+    /* float: left;  */
+    float: right;
 }
+
+ h1 {
+     /* clear: left; */
+     /* clear: right; */
+     clear: both; /* to clear to the left and right, element will start on a new line */
+ }
 

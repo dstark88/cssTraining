@@ -21,6 +21,10 @@ em {
 
 .blueBox {
     background: #627da0;
+    position: relative; /* moves relative to the parent element, container.*/
+    /* top: 50px; */
+    bottom: 10px;
+
 }
 
 .greenBox {
@@ -28,5 +32,9 @@ em {
 }
 
 .container {
-   /*background: rgba(0,0,0,.4);*/
+   background: rgba(158, 123, 123, 0.4);
+   width: 200px;
+   height: 200px;
+   position: relative; /* gives properties to child elements like blue box */
+   /* top: 200px; */
 }
